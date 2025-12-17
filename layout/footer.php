@@ -1,0 +1,1 @@
+<div class="footer"> Camping Rental/ abdul Gafar</div>

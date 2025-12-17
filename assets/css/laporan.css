@@ -1,0 +1,90 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin-left: 240px; /* sesuai sidebar */
+  padding: 25px;
+  min-height: 100vh;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.action-bar {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.85;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.custom-table th {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.custom-table tr:hover {
+  background-color: #f3f4f6;
+}
+
+.total {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+  color: #64748b;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-left: 0;
+    padding: 15px;
+  }
+}

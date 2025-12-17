@@ -1,0 +1,93 @@
+.main {
+  margin-left: 240px; /* menyesuaikan sidebar */
+  padding: 30px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* Form tambah akun */
+.form-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Tombol */
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-success {
+  background: #28a745;
+  color: white;
+}
+.btn-warning {
+  background: #f59e0b;
+  color: white;
+}
+.btn-danger {
+  background: #dc2626;
+  color: white;
+}
+
+/* Tabel akun */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.custom-table th {
+  background: #1f2937;
+  color: white;
+}
+
+.custom-table tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.custom-table tr:hover {
+  background: #e0f2fe;
+}

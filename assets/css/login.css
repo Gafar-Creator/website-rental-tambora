@@ -1,0 +1,90 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+}
+
+/* Kontainer login */
+.login-container {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Judul */
+.login-container h1 {
+  color: #111827;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+/* Form input */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+/* Tombol login */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-container button:hover {
+  background: #2563eb;
+}
+
+/* Link lupa password atau lainnya */
+.login-container .login-footer {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #64748b;
+}
+
+/* Responsif */
+@media (max-width: 480px) {
+  .login-container {
+    padding: 30px 20px;
+  }
+  .login-container h1 {
+    font-size: 22px;
+  }
+}
